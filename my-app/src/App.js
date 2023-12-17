@@ -574,10 +574,16 @@ function App() {
                             setSettings((prevState) => ({
                               ...prevState,
                               purpose: answers.purpose[2],
+                              screen: answers.screen[2],
+                              keyboard: answers.keyboard[2],
+                              mouse: answers.mouse[2],
                             }));
                             setSettingsC((prevState) => ({
                               ...prevState,
                               purpose: answersC.purpose[2],
+                              screen: answers.screen[2],
+                              keyboard: answers.keyboard[2],
+                              mouse: answers.mouse[2],
                             }));
                           }}
                         />
