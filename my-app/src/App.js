@@ -68,7 +68,7 @@ function App() {
       "f[lrp]=81r7",
       "f[lrp]=81r3&f[6bz]=28ys",
       "f[6cr]=dhwo-297w-297u",
-    ], //игровой,не игровой & встроенная видюха, 16+ озу
+    ], //игровой,не игровой & встроенная видеокарта, 16+ озу
     sizes: ["f[6dd]=19frjc", "f[6dd]=29iu", "f[6dd]=19oq0d-29iq-b8uz", "any"], //mid,mini,slim+sff+nettop
     SSD: [
       "f[6cl]=l6bsp-1aj5yf-2975-2974-297d-itfwj-skgc2",
@@ -267,7 +267,7 @@ function App() {
           <div
             className="link"
             onClick={() => {
-              window.open("https://www.youtube.com/watch?v=aR9bbLI7qpQ", "_blank");
+              window.open("https://www.youtube.com", "_blank");
             }}
           >
             Как собрать компьютер? <img className="arrow" src={arrow}></img>
@@ -276,12 +276,12 @@ function App() {
             className="link"
             onClick={() => {
               window.open(
-                "https://disk.yandex.ru/i/FyVmcw7i--PjKQ",
+                "https://disk.yandex.ru",
                 "_blank"
               );
             }}
           >
-            400 ГБ жёсткого gachi-контента<img className="arrow" src={arrow}></img>
+            Как выбрать готовую конфигурацию ПК?<img className="arrow" src={arrow}></img>
           </div>
         </div>
       </Modal>
@@ -297,7 +297,7 @@ function App() {
               window.open("https://vk.com/cosmokotik", "_blank");
             }}
           >
-            ВК? <img className="arrow" src={arrow}></img>
+            ВК <img className="arrow" src={arrow}></img>
           </div>
           <div
             className="link"
@@ -308,7 +308,7 @@ function App() {
               );
             }}
           >
-            ТГ<img className="arrow" src={arrow}></img>
+            ТГ<img className="arrow" src={arrow}></img> 
           </div>
         </div>
       </Modal>
